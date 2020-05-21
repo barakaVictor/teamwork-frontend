@@ -1,0 +1,30 @@
+.login-form-wrapper{
+    display: table;
+    width: 100%;
+    height: 90vh;
+}
+.login-form-holder{
+    display: table-cell;
+    vertical-align: middle;
+}
+/*.login-form{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}*/
+.form-control{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    font-weight: 400;
+}
+@media(min-width: 924px){
+    .login-form{
+        width: 30%;
+    }
+}

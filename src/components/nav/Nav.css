@@ -1,0 +1,18 @@
+nav{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.nav-items ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: solid;
+}
+
+.nav-items li{
+    display: block;
+    float: left;
+    padding: 16px;
+    text-align: center;
+}
